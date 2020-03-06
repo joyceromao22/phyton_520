@@ -26,6 +26,9 @@ print(texto.upper())
 print(texto.lower())
 print(texto.capitalize())
 print(texto.split(' '))
+print (texto.replace('e','a'))
+
+
 
     
 

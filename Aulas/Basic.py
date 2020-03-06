@@ -1,4 +1,4 @@
-#-*- codingÇ utf-8 -*-
+#-*- coding: utf-8 -*-
 
 nome = 'Joyce'
 idade = 29
@@ -14,3 +14,19 @@ print( f'ola meu nome e {nome}') #terceira opcao
 # print (type(idade))
 # print (type(altura))
 # print (type(brasileiro))
+
+# num1 = float (input ('Digite o primeiro numero'))
+# num2 = float (input ('Digite o segundo numero'))
+# soma = num1+num22
+
+# print (str(soma))
+# print (num1+num2)
+
+# texto = 'esse e o texto'
+
+# print(texto.upper())
+# print(texto.lower())
+# print(texto.capitalize())
+# print(texto.split(' '))
+# print (texto.replace('e','a'))
+
