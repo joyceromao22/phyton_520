@@ -30,8 +30,8 @@ dados = {
 # 2. Nome dos estados, quantidade de municipios e  população
 
 #print(dados['estados']['sp'].keys())
-for i in dados ['estados'.keys()]:
-    print (dados['estados'] [i] ['nome'])
+# for i in dados ['estados'.keys()]:
+#     print (dados['estados'] [i] ['nome'])
 
 # print(dados['estados']['sp']['nome'])
 # print(dados['estados']['rj']['nome'])
@@ -39,3 +39,8 @@ for i in dados ['estados'.keys()]:
 
 # for i in dados ['estados']. keys():
 # print(f"Nome: {dados ['estados'] [i] ['nome'] }\nMunicipios: {dados['estados']}
+
+
+
+
+

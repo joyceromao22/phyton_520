@@ -4,8 +4,8 @@
 #imprimir na tela a msg Ola meu e nome e sobrenome
 
 #-*- coding: utf-8 -*-
-nome = 'Joyce'
-sobrenome = 'Romao'
+# nome = 'Joyce'
+# sobrenome = 'Romao'
 
 # print ('Ola meu nome e',nome + ' ' + sobrenome)
 

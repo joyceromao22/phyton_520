@@ -7,7 +7,7 @@ brasileiro = True
 
 #print ('ola meu nome e',nome) #primeira opcao
 #print('ola meu nome e {} {}'.format(nome), (idade)) #segunda opcao
-print( f'ola meu nome e {nome}') #terceira opcao
+print( f'ola meu nome e {nome},{idade}') #terceira opcao
 
 #vendo tipos de dados
 # print (type(nome))
@@ -29,4 +29,3 @@ print( f'ola meu nome e {nome}') #terceira opcao
 # print(texto.capitalize())
 # print(texto.split(' '))
 # print (texto.replace('e','a'))
-
