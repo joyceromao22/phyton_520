@@ -44,7 +44,7 @@
 
 # print(soma(10,20))
 
-numeros = [1,2,3,4,5,6,7,8,9]
+#numeros = [1,2,3,4,5,6,7,8,9]
 
 # dobro = list(map(lambda x: x *2,numeros))
 
@@ -65,5 +65,24 @@ numeros = [1,2,3,4,5,6,7,8,9]
 
 #retorna apena snumeros pares:
 
-n_par = list(filter(lambda x: x % 2 == 0, numeros))
-print(n_par)
+#n_par = list(filter(lambda x: x % 2 == 0, numeros))
+#print(n_par)
+
+personagens = []
+
+def addPersonagens(nomePersonagem):
+    #global personagens
+    personagens.append(nomePersonagem)
+
+def rmvPersonagem(nomePersonagem):
+    try:
+        personagens.remove(nomePersonagem)
+        print(f'Personagem:{nomePersonagem} removido!')
+    except ValueError:
+        print('Personagem nao cadastrado')
+
+
+addPersonagens('Jerry')
+rmvPersonagem('Jerry')
+
+print(personagens
